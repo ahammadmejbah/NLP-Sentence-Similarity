@@ -1,18 +1,12 @@
  <b><h1><p  align="center"> NLP-Sentence-Similarity </p></h1></b>
 
-
-SentEval: An Evaluation Toolkit for Universal Sentence Representations
-
-Calculating the similarity between words and sentences using a lexical database and corpus statistics
-
-On the Effect of Dropping Layers of Pre-trained Transformer Models
-
-Generating Sentences by Editing Prototypes
- 
-Sentence Ordering and Coherence Modeling using Recurrent Neural Networks
-
-Macro Grammars and Holistic Triggering for Efficient Semantic Parsing
 <ol>
+<li><a href="">SentEval: An Evaluation Toolkit for Universal Sentence Representations</a></li>
+<li><a href="">Calculating the similarity between words and sentences using a lexical database and corpus statistics</a></li>
+<li><a href="">On the Effect of Dropping Layers of Pre-trained Transformer Models</a></li>
+<li><a href="">Generating Sentences by Editing Prototypes</a></li>
+<li><a href="">Sentence Ordering and Coherence Modeling using Recurrent Neural Networks</a></li>
+<li><a href="">Macro Grammars and Holistic Triggering for Efficient Semantic Parsing</a></li>
 <li><a href="">Context Mover's Distance & Barycenters: Optimal Transport of Contexts for Building Representations</a></li>
 <li><a href="">NeuralWarp: Time-Series Similarity with Warping Networks</a></li>
 <li><a href="">Sentence Similarity Learning by Lexical Decomposition and Composition</a></li>
