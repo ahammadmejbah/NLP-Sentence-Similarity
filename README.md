@@ -3,55 +3,87 @@
 <ol>
  
 <li><a href="https://arxiv.org/pdf/1812.08306v1.pdf">NeuralWarp: Time-Series Similarity with Warping Networks</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204260430-be0741df-2213-44f2-ba25-18da16a88c7d.png)
+
    <code> Abstract: </code>
  
    Research on time-series similarity measures has emphasized the need for elastic methods which align the indices of pairs of time series and a plethora of non-parametric have been proposed for the task. On the other hand, deep learning approaches are dominant in closely related domains, such as learning image and text sentence similarity. In this paper, we propose \textit{NeuralWarp}, a novel measure that models the alignment of time-series indices in a deep representation space, by modeling a warping function as an upper level neural network between deeply-encoded time series values. Experimental results demonstrate that \textit{NeuralWarp} outperforms both non-parametric and un-warped deep models on a range of diverse real-life datasets.
    
 <li><a href="https://arxiv.org/pdf/1602.07019v2.pdf">Sentence Similarity Learning by Lexical Decomposition and Composition</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204260529-bf58b37f-4c03-43dd-b79e-2473b008b39b.png)
+
    <code> Abstract: </code>
    
   Most conventional sentence similarity methods only focus on similar parts of two input sentences, and simply ignore the dissimilar parts, which usually give us some clues and semantic meanings about the sentences. In this work, we propose a model to take into account both the similarities and dissimilarities by decomposing and composing lexical semantics over sentences. The model represents each word as a vector, and calculates a semantic matching vector for each word based on all words in the other sentence. Then, each word vector is decomposed into a similar component and a dissimilar component based on the semantic matching vector. After this, a two-channel CNN model is employed to capture features by composing the similar and dissimilar components. Finally, a similarity score is estimated over the composed feature vectors. Experimental results show that our model gets the state-of-the-art performance on the answer sentence selection task, and achieves a comparable result on the paraphrase identification task.
 <li><a href="https://arxiv.org/pdf/1603.06807v2.pdf">Generating Factoid Questions With Recurrent Neural Networks: The 30M Factoid Question-Answer Corpus</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204260658-2f37fa61-20c4-4d3f-83b9-129d3af2ffec.png)
+
    <code> Abstract: </code>
  
   Over the past decade, large-scale supervised learning corpora have enabled machine learning researchers to make substantial advances. However, to this date, there are no large-scale question-answer corpora available. In this paper we present the 30M Factoid Question-Answer Corpus, an enormous question answer pair corpus produced by applying a novel neural network architecture on the knowledge base Freebase to transduce facts into natural language questions. The produced question answer pairs are evaluated both by human evaluators and using automatic evaluation metrics, including well-established machine translation and sentence similarity metrics. Across all evaluation criteria the question-generation model outperforms the competing template-based baseline. Furthermore, when presented to human evaluators, the generated questions appear comparable in quality to real human-generated questions.
    
 <li><a href="https://arxiv.org/pdf/1605.01194v1.pdf">IISCNLP at SemEval-2016 Task 2: Interpretable STS with ILP based Multiple Chunk Aligner</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204260764-8983612e-598e-409c-85e4-820f44a132f8.png)
+
    <code> Abstract: </code>
  
    Interpretable semantic textual similarity (iSTS) task adds a crucial explanatory layer to pairwise sentence similarity. We address various components of this task: chunk level semantic alignment along with assignment of similarity type and score for aligned chunks with a novel system presented in this paper. We propose an algorithm, iMATCH, for the alignment of multiple non-contiguous chunks based on Integer Linear Programming (ILP). Similarity type and score assignment for pairs of chunks is done using a supervised multiclass classification technique based on Random Forrest Classifier. Results show that our algorithm iMATCH has low execution time and outperforms most other participating systems in terms of alignment score. Of the three datasets, we are top ranked for answer- students dataset in terms of overall score and have top alignment score for headlines dataset in the gold chunks track.
    
 <li><a href="https://arxiv.org/pdf/1610.03098v3.pdf">Neural Paraphrase Generation with Stacked Residual LSTM Networks</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204260897-20d590d1-e7c5-4475-915d-b3c82c344c04.png)
+
    <code> Abstract: </code>
  
    In this paper, we propose a novel neural approach for paraphrase generation. Conventional para- phrase generation methods either leverage hand-written rules and thesauri-based alignments, or use statistical machine learning principles. To the best of our knowledge, this work is the first to explore deep learning models for paraphrase generation. Our primary contribution is a stacked residual LSTM network, where we add residual connections between LSTM layers. This allows for efficient training of deep LSTMs. We evaluate our model and other state-of-the-art deep learning models on three different datasets: PPDB, WikiAnswers and MSCOCO. Evaluation results demonstrate that our model outperforms sequence to sequence, attention-based and bi- directional LSTM models on BLEU, METEOR, TER and an embedding-based sentence similarity metric. 
  
 
 <li><a href="https://arxiv.org/pdf/1803.05449v1.pdf">SentEval: An Evaluation Toolkit for Universal Sentence Representations</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204261127-d1944ed1-1dd1-4968-9411-a879630a266c.png)
+
  <code>Abstract:</code>
  
   We introduce SentEval, a toolkit for evaluating the quality of universal sentence representations. SentEval encompasses a variety of tasks, including binary and multi-class classification, natural language inference and sentence similarity. The set of tasks was selected based on what appears to be the community consensus regarding the appropriate evaluations for universal sentence representations. The toolkit comes with scripts to download and preprocess datasets, and an easy interface to evaluate sentence encoders. The aim is to provide a fairer, less cumbersome and more centralized way for evaluating sentence representations.
  
 <li><a href="https://arxiv.org/pdf/1802.05667v2.pdf">Calculating the similarity between words and sentences using a lexical database and corpus statistics</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204261285-3772299a-5a97-40b9-a85a-a4dadf6fe721.png)
+
  
  <code> Abstract: </code>
  
   Calculating the semantic similarity between sentences is a long dealt problem in the area of natural language processing. The semantic analysis field has a crucial role to play in the research related to the text analytics. The semantic similarity differs as the domain of operation differs. In this paper, we present a methodology which deals with this issue by incorporating semantic similarity and corpus statistics. To calculate the semantic similarity between words and sentences, the proposed method follows an edge-based approach using a lexical database. The methodology can be applied in a variety of domains. The methodology has been tested on both benchmark standards and mean human similarity dataset. When tested on these two datasets, it gives highest correlation value for both word and sentence similarity outperforming other similar models. For word similarity, we obtained Pearson correlation coefficient of 0.8753 and for sentence similarity, the correlation obtained is 0.8794.
  
 <li><a href="https://arxiv.org/pdf/2004.03844v3.pdf">On the Effect of Dropping Layers of Pre-trained Transformer Models</a></li>
+![image](https://user-images.githubusercontent.com/56669333/204261360-f2a9b4ae-d29c-4e94-8531-237f750f6219.png)
+
   <code> Abstract: </code>
  Transformer-based NLP models are trained using hundreds of millions or even billions of parameters, limiting their applicability in computationally constrained environments. While the number of parameters generally correlates with performance, it is not clear whether the entire network is required for a downstream task. Motivated by the recent work on pruning and distilling pre-trained models, we explore strategies to drop layers in pre-trained models, and observe the effect of pruning on downstream GLUE tasks. We were able to prune BERT, RoBERTa and XLNet models up to 40%, while maintaining up to 98% of their original performance. Additionally we show that our pruned models are on par with those built using knowledge distillation, both in terms of size and performance. Our experiments yield interesting observations such as, (i) the lower layers are most critical to maintain downstream task performance, (ii) some tasks such as paraphrase detection and sentence similarity are more robust to the dropping of layers, and (iii) models trained using a different objective function exhibit different learning patterns and w.r.t the layer dropping.
  
 <li><a href="https://arxiv.org/pdf/1709.08878v2.pdf">Generating Sentences by Editing Prototypes</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204261424-f42fa9b9-9f91-4644-bd0d-d03f97e8f9c5.png)
+
    <code> Abstract: </code>
    We propose a new generative model of sentences that first samples a prototype sentence from the training corpus and then edits it into a new sentence. Compared to traditional models that generate from scratch either left-to-right or by first sampling a latent sentence vector, our prototype-then-edit model improves perplexity on language modeling and generates higher quality outputs according to human evaluation. Furthermore, the model gives rise to a latent edit vector that captures interpretable semantics such as sentence similarity and sentence-level analogies.
    
 <li><a href="https://arxiv.org/pdf/1611.02654v2.pdf">Sentence Ordering and Coherence Modeling using Recurrent Neural Networks</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204261520-8abe49db-d4f0-4c44-b0b6-e88adc66c879.png)
+
    <code> Abstract: </code>
  
    Modeling the structure of coherent texts is a key NLP problem. The task of coherently organizing a given set of sentences has been commonly used to build and evaluate models that understand such structure. We propose an end-to-end unsupervised deep learning approach based on the set-to-sequence framework to address this problem. Our model strongly outperforms prior methods in the order discrimination task and a novel task of ordering abstracts from scientific articles. Furthermore, our work shows that useful text representations can be obtained by learning to order sentences. Visualizing the learned sentence representations shows that the model captures high-level logical structure in paragraphs. Our representations perform comparably to state-of-the-art pre-training methods on sentence similarity and paraphrase detection tasks.
    
 <li><a href="https://arxiv.org/pdf/1707.07806v2.pdf">Macro Grammars and Holistic Triggering for Efficient Semantic Parsing</a></li>
+
+![image](https://user-images.githubusercontent.com/56669333/204261574-12c2c973-d0e0-477c-ac93-5578d68d885e.png)
+
    <code> Abstract: </code>
  
    To learn a semantic parser from denotations, a learning algorithm must search over a combinatorially large space of logical forms for ones consistent with the annotated denotations. We propose a new online learning algorithm that searches faster as training progresses. The two key ideas are using macro grammars to cache the abstract patterns of useful logical forms found thus far, and holistic triggering to efficiently retrieve the most relevant patterns based on sentence similarity. On the WikiTableQuestions dataset, we first expand the search space of an existing model to improve the state-of-the-art accuracy from 38.7% to 42.7%, and then use macro grammars and holistic triggering to achieve an 11x speedup and an accuracy of 43.7%.
