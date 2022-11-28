@@ -2,6 +2,13 @@
 
 <ol>
 <li><a href="https://arxiv.org/pdf/1803.05449v1.pdf">SentEval: An Evaluation Toolkit for Universal Sentence Representations</a></li>
+ <code>Abstract:</code>
+ 
+  We introduce SentEval, a toolkit for evaluating the quality of universal sentence representations. SentEval encompasses a variety of tasks, including binary and multi-class classification, natural language inference and sentence similarity. The set of tasks was selected based on what appears to be the community consensus regarding the appropriate evaluations for universal sentence representations. The toolkit comes with scripts to download and preprocess datasets, and an easy interface to evaluate sentence encoders. The aim is to provide a fairer, less cumbersome and more centralized way for evaluating sentence representations.
+ 
+ 
+ 
+ 
 <li><a href="https://arxiv.org/pdf/1802.05667v2.pdf">Calculating the similarity between words and sentences using a lexical database and corpus statistics</a></li>
 <li><a href="https://arxiv.org/pdf/2004.03844v3.pdf">On the Effect of Dropping Layers of Pre-trained Transformer Models</a></li>
 <li><a href="https://arxiv.org/pdf/1709.08878v2.pdf">Generating Sentences by Editing Prototypes</a></li>
