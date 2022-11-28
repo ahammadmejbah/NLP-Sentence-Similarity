@@ -1,6 +1,32 @@
  <b><h1><p  align="center"> NLP-Sentence-Similarity </p></h1></b>
 
 <ol>
+ 
+<li><a href="https://arxiv.org/pdf/1812.08306v1.pdf">NeuralWarp: Time-Series Similarity with Warping Networks</a></li>
+   <code> Abstract: </code>
+ 
+   Research on time-series similarity measures has emphasized the need for elastic methods which align the indices of pairs of time series and a plethora of non-parametric have been proposed for the task. On the other hand, deep learning approaches are dominant in closely related domains, such as learning image and text sentence similarity. In this paper, we propose \textit{NeuralWarp}, a novel measure that models the alignment of time-series indices in a deep representation space, by modeling a warping function as an upper level neural network between deeply-encoded time series values. Experimental results demonstrate that \textit{NeuralWarp} outperforms both non-parametric and un-warped deep models on a range of diverse real-life datasets.
+   
+<li><a href="https://arxiv.org/pdf/1602.07019v2.pdf">Sentence Similarity Learning by Lexical Decomposition and Composition</a></li>
+   <code> Abstract: </code>
+   
+  Most conventional sentence similarity methods only focus on similar parts of two input sentences, and simply ignore the dissimilar parts, which usually give us some clues and semantic meanings about the sentences. In this work, we propose a model to take into account both the similarities and dissimilarities by decomposing and composing lexical semantics over sentences. The model represents each word as a vector, and calculates a semantic matching vector for each word based on all words in the other sentence. Then, each word vector is decomposed into a similar component and a dissimilar component based on the semantic matching vector. After this, a two-channel CNN model is employed to capture features by composing the similar and dissimilar components. Finally, a similarity score is estimated over the composed feature vectors. Experimental results show that our model gets the state-of-the-art performance on the answer sentence selection task, and achieves a comparable result on the paraphrase identification task.
+<li><a href="https://arxiv.org/pdf/1603.06807v2.pdf">Generating Factoid Questions With Recurrent Neural Networks: The 30M Factoid Question-Answer Corpus</a></li>
+   <code> Abstract: </code>
+ 
+  Over the past decade, large-scale supervised learning corpora have enabled machine learning researchers to make substantial advances. However, to this date, there are no large-scale question-answer corpora available. In this paper we present the 30M Factoid Question-Answer Corpus, an enormous question answer pair corpus produced by applying a novel neural network architecture on the knowledge base Freebase to transduce facts into natural language questions. The produced question answer pairs are evaluated both by human evaluators and using automatic evaluation metrics, including well-established machine translation and sentence similarity metrics. Across all evaluation criteria the question-generation model outperforms the competing template-based baseline. Furthermore, when presented to human evaluators, the generated questions appear comparable in quality to real human-generated questions.
+   
+<li><a href="https://arxiv.org/pdf/1605.01194v1.pdf">IISCNLP at SemEval-2016 Task 2: Interpretable STS with ILP based Multiple Chunk Aligner</a></li>
+   <code> Abstract: </code>
+ 
+   Interpretable semantic textual similarity (iSTS) task adds a crucial explanatory layer to pairwise sentence similarity. We address various components of this task: chunk level semantic alignment along with assignment of similarity type and score for aligned chunks with a novel system presented in this paper. We propose an algorithm, iMATCH, for the alignment of multiple non-contiguous chunks based on Integer Linear Programming (ILP). Similarity type and score assignment for pairs of chunks is done using a supervised multiclass classification technique based on Random Forrest Classifier. Results show that our algorithm iMATCH has low execution time and outperforms most other participating systems in terms of alignment score. Of the three datasets, we are top ranked for answer- students dataset in terms of overall score and have top alignment score for headlines dataset in the gold chunks track.
+   
+<li><a href="https://arxiv.org/pdf/1610.03098v3.pdf">Neural Paraphrase Generation with Stacked Residual LSTM Networks</a></li>
+   <code> Abstract: </code>
+ 
+   In this paper, we propose a novel neural approach for paraphrase generation. Conventional para- phrase generation methods either leverage hand-written rules and thesauri-based alignments, or use statistical machine learning principles. To the best of our knowledge, this work is the first to explore deep learning models for paraphrase generation. Our primary contribution is a stacked residual LSTM network, where we add residual connections between LSTM layers. This allows for efficient training of deep LSTMs. We evaluate our model and other state-of-the-art deep learning models on three different datasets: PPDB, WikiAnswers and MSCOCO. Evaluation results demonstrate that our model outperforms sequence to sequence, attention-based and bi- directional LSTM models on BLEU, METEOR, TER and an embedding-based sentence similarity metric. 
+ 
+
 <li><a href="https://arxiv.org/pdf/1803.05449v1.pdf">SentEval: An Evaluation Toolkit for Universal Sentence Representations</a></li>
  <code>Abstract:</code>
  
@@ -34,30 +60,6 @@
    <code> Abstract: </code>
  
   We present a framework for building unsupervised representations of entities and their compositions, where each entity is viewed as a probability distribution rather than a vector embedding. In particular, this distribution is supported over the contexts which co-occur with the entity and are embedded in a suitable low-dimensional space. This enables us to consider representation learning from the perspective of Optimal Transport and take advantage of its tools such as Wasserstein distance and barycenters. We elaborate how the method can be applied for obtaining unsupervised representations of text and illustrate the performance (quantitatively as well as qualitatively) on tasks such as measuring sentence similarity, word entailment and similarity, where we empirically observe significant gains (e.g., 4.1% relative improvement over Sent2vec, GenSen). The key benefits of the proposed approach include: (a) capturing uncertainty and polysemy via modeling the entities as distributions, (b) utilizing the underlying geometry of the particular task (with the ground cost), (c) simultaneously providing interpretability with the notion of optimal transport between contexts and (d) easy applicability on top of existing point embedding methods. The code, as well as prebuilt histograms, are available under https://github.com/context-mover/.
-   
-<li><a href="https://arxiv.org/pdf/1812.08306v1.pdf">NeuralWarp: Time-Series Similarity with Warping Networks</a></li>
-   <code> Abstract: </code>
- 
-   Research on time-series similarity measures has emphasized the need for elastic methods which align the indices of pairs of time series and a plethora of non-parametric have been proposed for the task. On the other hand, deep learning approaches are dominant in closely related domains, such as learning image and text sentence similarity. In this paper, we propose \textit{NeuralWarp}, a novel measure that models the alignment of time-series indices in a deep representation space, by modeling a warping function as an upper level neural network between deeply-encoded time series values. Experimental results demonstrate that \textit{NeuralWarp} outperforms both non-parametric and un-warped deep models on a range of diverse real-life datasets.
-   
-<li><a href="https://arxiv.org/pdf/1602.07019v2.pdf">Sentence Similarity Learning by Lexical Decomposition and Composition</a></li>
-   <code> Abstract: </code>
-   
-  Most conventional sentence similarity methods only focus on similar parts of two input sentences, and simply ignore the dissimilar parts, which usually give us some clues and semantic meanings about the sentences. In this work, we propose a model to take into account both the similarities and dissimilarities by decomposing and composing lexical semantics over sentences. The model represents each word as a vector, and calculates a semantic matching vector for each word based on all words in the other sentence. Then, each word vector is decomposed into a similar component and a dissimilar component based on the semantic matching vector. After this, a two-channel CNN model is employed to capture features by composing the similar and dissimilar components. Finally, a similarity score is estimated over the composed feature vectors. Experimental results show that our model gets the state-of-the-art performance on the answer sentence selection task, and achieves a comparable result on the paraphrase identification task.
-<li><a href="https://arxiv.org/pdf/1603.06807v2.pdf">Generating Factoid Questions With Recurrent Neural Networks: The 30M Factoid Question-Answer Corpus</a></li>
-   <code> Abstract: </code>
- 
-  Over the past decade, large-scale supervised learning corpora have enabled machine learning researchers to make substantial advances. However, to this date, there are no large-scale question-answer corpora available. In this paper we present the 30M Factoid Question-Answer Corpus, an enormous question answer pair corpus produced by applying a novel neural network architecture on the knowledge base Freebase to transduce facts into natural language questions. The produced question answer pairs are evaluated both by human evaluators and using automatic evaluation metrics, including well-established machine translation and sentence similarity metrics. Across all evaluation criteria the question-generation model outperforms the competing template-based baseline. Furthermore, when presented to human evaluators, the generated questions appear comparable in quality to real human-generated questions.
-   
-<li><a href="https://arxiv.org/pdf/1605.01194v1.pdf">IISCNLP at SemEval-2016 Task 2: Interpretable STS with ILP based Multiple Chunk Aligner</a></li>
-   <code> Abstract: </code>
- 
-   Interpretable semantic textual similarity (iSTS) task adds a crucial explanatory layer to pairwise sentence similarity. We address various components of this task: chunk level semantic alignment along with assignment of similarity type and score for aligned chunks with a novel system presented in this paper. We propose an algorithm, iMATCH, for the alignment of multiple non-contiguous chunks based on Integer Linear Programming (ILP). Similarity type and score assignment for pairs of chunks is done using a supervised multiclass classification technique based on Random Forrest Classifier. Results show that our algorithm iMATCH has low execution time and outperforms most other participating systems in terms of alignment score. Of the three datasets, we are top ranked for answer- students dataset in terms of overall score and have top alignment score for headlines dataset in the gold chunks track.
-   
-<li><a href="https://arxiv.org/pdf/1610.03098v3.pdf">Neural Paraphrase Generation with Stacked Residual LSTM Networks</a></li>
-   <code> Abstract: </code>
- 
-   In this paper, we propose a novel neural approach for paraphrase generation. Conventional para- phrase generation methods either leverage hand-written rules and thesauri-based alignments, or use statistical machine learning principles. To the best of our knowledge, this work is the first to explore deep learning models for paraphrase generation. Our primary contribution is a stacked residual LSTM network, where we add residual connections between LSTM layers. This allows for efficient training of deep LSTMs. We evaluate our model and other state-of-the-art deep learning models on three different datasets: PPDB, WikiAnswers and MSCOCO. Evaluation results demonstrate that our model outperforms sequence to sequence, attention-based and bi- directional LSTM models on BLEU, METEOR, TER and an embedding-based sentence similarity metric.
    
 <li><a href="https://arxiv.org/pdf/1709.01186v1.pdf">Learning Neural Word Salience Scores</a></li>
    <code> Abstract: </code>
