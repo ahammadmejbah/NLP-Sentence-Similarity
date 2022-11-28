@@ -1,1 +1,3 @@
-<p  align="cneter">NLP-Sentence-Similarity</p>
+<p  align="center">
+  NLP-Sentence-Similarity
+</p>
